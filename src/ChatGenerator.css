@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    /* position: relative; 
+    height: 800px;
+    width: 700px; */
+}
+
+.chat-container {
+    background-color: #3223ba;
+}

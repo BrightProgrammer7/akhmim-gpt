@@ -1,0 +1,26 @@
+.textGenerator {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ipt {
+  height: 20px;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.rps, .rqt {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+  /* border: rebeccapurple solid ;
+  background-color: indigo !important; */
+}

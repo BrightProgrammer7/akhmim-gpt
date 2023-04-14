@@ -1,0 +1,35 @@
+.EmailGenerator {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frm{
+  width: 60vw;
+}
+.form-control{
+  padding: 0 20px;
+  line-height: 3;
+  font-size: larger;
+}
+
+/* .ipt {
+  height: 20px;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+} */
+
+.btn {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.generetedEmail {
+  text-align: center;
+  margin-top: 10px 0;
+}
