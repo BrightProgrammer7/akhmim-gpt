@@ -10,8 +10,6 @@
     "client": "vite",
     "server": "nodemon server",
     "app": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "playwright test",
-    "tst": "playwright jest",
     "start": "node ."
   },
   "dependencies": {
