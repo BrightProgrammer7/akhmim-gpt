@@ -18,7 +18,7 @@ function ChatGenerator() {
     const [typing, setTyping] = useState(false)
     const [messages, setMessages] = useState([
         {
-            message: "Hello, I am AkhmimGPT, How can I assist you today ? ",
+            message: "Hello, I am SurfGPT, How can I assist you today ? ",
             sentTime: "just now",
             sender: "ChatGPT",
         },
@@ -130,7 +130,7 @@ function ChatGenerator() {
                 <ChatContainer >
                     <MessageList 
                         scrollBehavior="smooth"
-                        typingIndicator={typing ? <TypingIndicator content='AkhmimGPT is typing' /> : null}
+                        typingIndicator={typing ? <TypingIndicator content='SurfGPT is typing' /> : null}
                     >
                         {messages.map((message, i) => {
                             return <Message key={i} model={message} />;
