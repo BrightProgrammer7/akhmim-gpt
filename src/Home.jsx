@@ -7,7 +7,7 @@ function Home() {
   const navigate = useNavigate();
   return (
     <div className="Home">
-      <h1>HELLO in AkhmimGPT</h1>
+      <h1>HELLO in SurfGPT</h1>
       <button className='feature' onClick={() => navigate("/text")}>Want to generate text</button>
       <button className='feature' onClick={() => navigate("/image")}>Want to generate image</button>
       <button className='feature' onClick={() => navigate("/chat")}>Want to generate chat</button>
