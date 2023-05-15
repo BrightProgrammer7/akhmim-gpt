@@ -27,11 +27,7 @@ function App() {
           <Route path="/chat" element={<ChatGenerator />} />
           {/* Set up the route for the transcriptions generator with the TranscriptionGenerator component. */}
           <Route path="/transcription" element={<TranscriptionGenerator />} />
-          {/* Set up the route for the models generator with the MultiModels component. */}
-          <Route path="/model" element={<MultiModels />} />
-          {/* Set up the route for the models generator with the EmailGenerator component. */}
-          <Route path="/email" element={<EmailGenerator />} />
-        </Routes>
+           </Routes>
       </Router>
     // </div>
 
